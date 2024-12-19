@@ -97,6 +97,15 @@ server {
 ### Docker 部署
 非常推荐使用 Docker 部署，但该项目未提供 Docker 部署文件，有心的可以自己尝试。
 
+## 项目预览
+<div style="display: flex; overflow-x: auto; gap: 10px;">
+  <img src="https://github.com/QiuHaimengjing/ImageStorage/blob/main/repositories/qiu-api-platform/api01.png" alt="预览图1" width="300">
+  <img src="https://github.com/QiuHaimengjing/ImageStorage/blob/main/repositories/qiu-api-platform/api02.png" alt="预览图2" width="300">
+  <img src="https://github.com/QiuHaimengjing/ImageStorage/blob/main/repositories/qiu-api-platform/api03.png" alt="预览图3" width="300">
+  <img src="https://github.com/QiuHaimengjing/ImageStorage/blob/main/repositories/qiu-api-platform/api04.png" alt="预览图4" width="300">
+  <img src="https://github.com/QiuHaimengjing/ImageStorage/blob/main/repositories/qiu-api-platform/api05.png" alt="预览图5" width="300">
+</div>
+
 ## 🌟 支持项目
 这个项目是为了学习交流而生，功能还待完善，期待你的奇思妙想和二次开发！  
 如果它对你有所帮助，请别吝啬，给我点个小星星 ⭐ 支持吧！  
