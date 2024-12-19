@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: dubbo-privide
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://localhost:8848?namespace=7ddac039-c7cd-447c-8bef-472b0cedc624
+    id: nacos-registry
+    group: dubbo

@@ -1,0 +1,28 @@
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: trace
+
+server:
+  port: 8082
+
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - AddResponseHeader=source, qiu
+      routes:
+        - id: api_route
+          uri: http://localhost:8083
+          predicates:
+            - Path=/**
+
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: nacos://localhost:8848?namespace=210803d3-c363-4a4a-a7db-d91f4c6620bd
+    id: nacos-registry
+    group: dubbo

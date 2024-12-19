@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.1:3306/qiu?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  session:
+    timeout: 86400
+
+knife4j:
+  enable: true
+  production: true
+
+dubbo:
+  application:
+    name: dubbo-privide
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://localhost:8848?namespace=7ddac039-c7cd-447c-8bef-472b0cedc624
+    id: nacos-registry
+    group: dubbo
